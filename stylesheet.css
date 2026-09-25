@@ -57,12 +57,17 @@ img {
 }
 
 .monogram {
-  color: var(--accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 22px;
-  font-style: italic;
-  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
   text-decoration: none;
+}
+
+.monogram img {
+  display: block;
+  object-fit: contain;
 }
 
 .site-header nav {
